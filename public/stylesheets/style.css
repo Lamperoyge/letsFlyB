@@ -3,6 +3,17 @@ body {
 }
 
 
+.image {
+  background-image: url("../images/plane.jpg");
+  background-size: cover;
+  height: 80vh;
+  width: 60vh;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
 
 .navbar {
   position: relative;
@@ -21,7 +32,8 @@ body {
 #title {
   color: white;
   position: absolute;
-  left: 50%;
+  left: 45%;
+  font-size: 40px;
   font-weight: lighter;
   font-family: 'Raleway', sans-serif;
 }
