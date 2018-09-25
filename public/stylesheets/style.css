@@ -2,12 +2,67 @@ body {
   margin: 0
 }
 
+.form {
+  width: 46vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.submitForm {
+  /* width: 7%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.imgSpan {
+  font-size: 50px;
+}
+.howAbout {
+  position: absolute;
+  top: 0%;
+  text-align: center;
+  margin: 8px;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+.imageText {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  text-align: center;
+  color: #f30e5c;
+  opacity: 0.7;
+  font-family: 'Indie Flower', cursive;
+}
 .image {
-  background-image: url("../images/plane.jpg");
+  background: -webkit-linear-gradient(to right, rgba(225, 0, 255, 0.3), rgba(127, 0, 255, 0.3)), url("../images/plane.jpg");
+  background: linear-gradient(to right,rgba(225, 255, 255, 0.2), rgba(189, 137, 241, 0.3)), url("../images/plane.jpg");
+  /* background-image: url("../images/plane.jpg"); */
+  
   background-size: cover;
   height: 80vh;
-  width: 60vh;
+  width: 50vh;
+  border-radius: inherit;
+}
+
+.formSubmitButton {
+  border:1px solid rgba(222, 0, 255, 0.2) !important;
+  background-color: transparent !important;
+  border-radius: 50px !important;
+
+}
+.box {
+  display: flex;
+  border-radius: 10px;
+  position: absolute;
+  top: 35%;
+  -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
 }
 
 .card-container {
@@ -19,7 +74,7 @@ body {
   position: relative;
   background: #7F00FF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #E100FF, rgb(189, 137, 241)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   transition: all 0.3s ease;
   height: 45vh;
