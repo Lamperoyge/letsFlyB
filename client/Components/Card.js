@@ -9,6 +9,9 @@ export default class CardIndexPage extends Component {
     }
   }
 
+
+  
+
   render() {
     return (
         <div className = "card-container">
